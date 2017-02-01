@@ -1,0 +1,604 @@
+1198 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+1202 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:host.name=krithivass-mbp.fios-router.home
+1202 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_60
+1202 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+1202 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+1202 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.class.path=/Users/vasu/Downloads/apache-storm-0.9.5/lib/asm-4.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/carbonite-1.4.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/chill-java-0.3.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/clj-stacktrace-0.2.2.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/clj-time-0.4.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/clojure-1.5.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/clout-1.0.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-codec-1.6.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-exec-1.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-fileupload-1.2.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-io-2.4.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-lang-2.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-logging-1.1.3.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/compojure-1.1.3.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/core.incubator-0.1.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/disruptor-2.10.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/hiccup-0.3.6.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/jetty-6.1.26.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/jetty-util-6.1.26.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/jgrapht-core-0.9.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/jline-2.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/joda-time-2.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/json-simple-1.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/kryo-2.21.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/log4j-over-slf4j-1.6.6.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/logback-classic-1.0.13.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/logback-core-1.0.13.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/math.numeric-tower-0.0.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/minlog-1.2.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/objenesis-1.2.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/reflectasm-1.07-shaded.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/ring-core-1.1.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/ring-devel-0.3.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/ring-jetty-adapter-0.3.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/ring-servlet-0.3.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/servlet-api-2.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/slf4j-api-1.7.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/snakeyaml-1.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/storm-core-0.9.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/tools.cli-0.2.4.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/tools.logging-0.2.3.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/tools.macro-0.1.0.jar:NASALogDigger-1.0-SNAPSHOT.jar:/Users/vasu/Downloads/apache-storm-0.9.5/conf:/Users/vasu/Downloads/apache-storm-0.9.5/bin
+1202 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/local/lib:/opt/local/lib:/usr/lib
+1202 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T/
+1202 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+1203 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
+1203 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
+1203 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.version=10.10.5
+1203 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.name=vasu
+1203 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.home=/Users/vasu
+1203 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.dir=/Users/vasu/Documents/java_code_ihlp/Project2/target
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:host.name=krithivass-mbp.fios-router.home
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.version=1.8.0_60
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.vendor=Oracle Corporation
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.class.path=/Users/vasu/Downloads/apache-storm-0.9.5/lib/asm-4.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/carbonite-1.4.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/chill-java-0.3.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/clj-stacktrace-0.2.2.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/clj-time-0.4.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/clojure-1.5.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/clout-1.0.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-codec-1.6.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-exec-1.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-fileupload-1.2.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-io-2.4.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-lang-2.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/commons-logging-1.1.3.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/compojure-1.1.3.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/core.incubator-0.1.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/disruptor-2.10.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/hiccup-0.3.6.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/jetty-6.1.26.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/jetty-util-6.1.26.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/jgrapht-core-0.9.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/jline-2.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/joda-time-2.0.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/json-simple-1.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/kryo-2.21.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/log4j-over-slf4j-1.6.6.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/logback-classic-1.0.13.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/logback-core-1.0.13.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/math.numeric-tower-0.0.1.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/minlog-1.2.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/objenesis-1.2.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/reflectasm-1.07-shaded.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/ring-core-1.1.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/ring-devel-0.3.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/ring-jetty-adapter-0.3.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/ring-servlet-0.3.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/servlet-api-2.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/slf4j-api-1.7.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/snakeyaml-1.11.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/storm-core-0.9.5.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/tools.cli-0.2.4.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/tools.logging-0.2.3.jar:/Users/vasu/Downloads/apache-storm-0.9.5/lib/tools.macro-0.1.0.jar:NASALogDigger-1.0-SNAPSHOT.jar:/Users/vasu/Downloads/apache-storm-0.9.5/conf:/Users/vasu/Downloads/apache-storm-0.9.5/bin
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.library.path=/usr/local/lib:/opt/local/lib:/usr/lib
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.io.tmpdir=/var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T/
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.compiler=<NA>
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.name=Mac OS X
+1214 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.arch=x86_64
+1215 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.version=10.10.5
+1215 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.name=vasu
+1215 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.home=/Users/vasu
+1215 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.dir=/Users/vasu/Documents/java_code_ihlp/Project2/target
+1795 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T/a4d3b8c9-1c60-4d09-8247-140885ba0181/version-2 snapdir /var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T/a4d3b8c9-1c60-4d09-8247-140885ba0181/version-2
+1812 [main] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:2000
+1815 [main] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:2001
+1821 [main] INFO  backtype.storm.zookeeper - Starting inprocess zookeeper at port 2001 and dir /var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T//a4d3b8c9-1c60-4d09-8247-140885ba0181
+1989 [main] INFO  backtype.storm.daemon.nimbus - Starting Nimbus with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T//f03d2091-25cb-41ca-a908-165ccd4fdd92", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2001, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701 6702 6703], "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+1994 [main] INFO  backtype.storm.daemon.nimbus - Using default scheduler
+2007 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2067 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+2070 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@b18c4
+2087 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+2172 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+2172 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:49475
+2179 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:49475
+2181 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.persistence.FileTxnLog - Creating new log file: log.1
+2193 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080000 with negotiated timeout 20000 for client /127.0.0.1:49475
+2193 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2001, sessionid = 0x14ff7e1ff080000, negotiated timeout = 20000
+2196 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+2198 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+3228 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080000
+3231 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff080000 closed
+3231 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+3231 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:49475 which had sessionid 0x14ff7e1ff080000
+3232 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3233 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3233 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@7e2f86e6
+3234 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+3235 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+3235 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:49476
+3235 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:49476
+3236 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080001 with negotiated timeout 20000 for client /127.0.0.1:49476
+3237 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2001, sessionid = 0x14ff7e1ff080001, negotiated timeout = 20000
+3237 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3267 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3267 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3267 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@2c43eb8
+3269 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+3269 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+3269 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:49477
+3270 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:49477
+3271 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080002 with negotiated timeout 20000 for client /127.0.0.1:49477
+3271 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2001, sessionid = 0x14ff7e1ff080002, negotiated timeout = 20000
+3271 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3271 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+3274 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080002
+3275 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff080002 closed
+3275 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+3275 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3275 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:49477 which had sessionid 0x14ff7e1ff080002
+3276 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3276 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@67b7c170
+3278 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+3278 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3279 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+3279 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3279 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /0:0:0:0:0:0:0:1:49478
+3279 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@4c4f4365
+3279 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /0:0:0:0:0:0:0:1:49478
+3281 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+3281 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080003 with negotiated timeout 20000 for client /0:0:0:0:0:0:0:1:49478
+3281 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2001, sessionid = 0x14ff7e1ff080003, negotiated timeout = 20000
+3281 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /0:0:0:0:0:0:0:1:49479
+3281 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+3281 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3282 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /0:0:0:0:0:0:0:1:49479
+3284 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080004 with negotiated timeout 20000 for client /0:0:0:0:0:0:0:1:49479
+3284 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2001, sessionid = 0x14ff7e1ff080004, negotiated timeout = 20000
+3284 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3285 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+3286 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080004
+3287 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff080004 closed
+3287 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+3287 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /0:0:0:0:0:0:0:1:49479 which had sessionid 0x14ff7e1ff080004
+3288 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3288 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3289 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@3c904f1e
+3290 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+3290 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+3290 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /0:0:0:0:0:0:0:1:49480
+3291 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /0:0:0:0:0:0:0:1:49480
+3292 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080005 with negotiated timeout 20000 for client /0:0:0:0:0:0:0:1:49480
+3292 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2001, sessionid = 0x14ff7e1ff080005, negotiated timeout = 20000
+3292 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3305 [main] INFO  backtype.storm.daemon.supervisor - Starting Supervisor with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T//f61a03c9-79f4-4ef9-99db-6d04c37da4e3", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2001, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1024 1025 1026), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+3322 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3322 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3323 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@31464a43
+3324 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+3324 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+3324 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /0:0:0:0:0:0:0:1:49481
+3325 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /0:0:0:0:0:0:0:1:49481
+3326 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080006 with negotiated timeout 20000 for client /0:0:0:0:0:0:0:1:49481
+3326 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2001, sessionid = 0x14ff7e1ff080006, negotiated timeout = 20000
+3327 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3327 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+3330 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080006
+3332 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff080006 closed
+3332 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+3333 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3333 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /0:0:0:0:0:0:0:1:49481 which had sessionid 0x14ff7e1ff080006
+3333 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3334 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@4682eba5
+3335 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+3335 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+3335 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /0:0:0:0:0:0:0:1:49482
+3335 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /0:0:0:0:0:0:0:1:49482
+3336 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080007 with negotiated timeout 20000 for client /0:0:0:0:0:0:0:1:49482
+3336 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2001, sessionid = 0x14ff7e1ff080007, negotiated timeout = 20000
+3337 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3374 [main] INFO  backtype.storm.daemon.supervisor - Starting supervisor with id b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be at host krithivass-mbp.fios-router.home
+3378 [main] INFO  backtype.storm.daemon.supervisor - Starting Supervisor with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T//7770395f-de09-491b-b6b4-a1887dad39fd", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2001, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1027 1028 1029), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+3381 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3381 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3382 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@12aa4996
+3383 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+3383 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+3384 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /0:0:0:0:0:0:0:1:49483
+3384 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /0:0:0:0:0:0:0:1:49483
+3385 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080008 with negotiated timeout 20000 for client /0:0:0:0:0:0:0:1:49483
+3385 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2001, sessionid = 0x14ff7e1ff080008, negotiated timeout = 20000
+3385 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3385 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+3387 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080008
+3388 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff080008 closed
+3388 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+3388 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /0:0:0:0:0:0:0:1:49483 which had sessionid 0x14ff7e1ff080008
+3389 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3389 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3389 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@28348c6
+3390 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+3391 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:49484
+3391 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+3391 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:49484
+3392 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff080009 with negotiated timeout 20000 for client /127.0.0.1:49484
+3392 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2001, sessionid = 0x14ff7e1ff080009, negotiated timeout = 20000
+3392 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3402 [main] INFO  backtype.storm.daemon.supervisor - Starting supervisor with id d39a49ba-c316-471c-974f-125d51ef3adf at host krithivass-mbp.fios-router.home
+3458 [main] INFO  backtype.storm.daemon.nimbus - Received topology submission for test with conf {"topology.max.task.parallelism" nil, "topology.acker.executors" nil, "topology.kryo.register" nil, "topology.kryo.decorators" (), "topology.name" "test", "storm.id" "test-1-1442972828"}
+3483 [main] INFO  backtype.storm.daemon.nimbus - Activating test: test-1-1442972828
+3591 [main] INFO  backtype.storm.scheduler.EvenScheduler - Available slots: (["b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be" 1024] ["b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be" 1025] ["b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be" 1026] ["d39a49ba-c316-471c-974f-125d51ef3adf" 1027] ["d39a49ba-c316-471c-974f-125d51ef3adf" 1028] ["d39a49ba-c316-471c-974f-125d51ef3adf" 1029])
+3617 [main] INFO  backtype.storm.daemon.nimbus - Setting new assignment for topology id test-1-1442972828: #backtype.storm.daemon.common.Assignment{:master-code-dir "/var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T//f03d2091-25cb-41ca-a908-165ccd4fdd92/nimbus/stormdist/test-1-1442972828", :node->host {"b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be" "krithivass-mbp.fios-router.home"}, :executor->node+port {[4 4] ["b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be" 1024], [3 3] ["b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be" 1024], [2 2] ["b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be" 1024], [1 1] ["b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be" 1024]}, :executor->start-time-secs {[4 4] 1442972829, [3 3] 1442972829, [2 2] 1442972829, [1 1] 1442972829}}
+4546 [Thread-4] INFO  backtype.storm.daemon.supervisor - Launching worker with assignment #backtype.storm.daemon.supervisor.LocalAssignment{:storm-id "test-1-1442972828", :executors ([4 4] [3 3] [2 2] [1 1])} for this supervisor b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be on port 1024 with id b2f528b0-3c79-4ae7-baff-a4b227b2ea5b
+4548 [Thread-4] INFO  backtype.storm.daemon.worker - Launching worker for test-1-1442972828 on b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be:1024 with id b2f528b0-3c79-4ae7-baff-a4b227b2ea5b and conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T//f61a03c9-79f4-4ef9-99db-6d04c37da4e3", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2001, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1024 1025 1026), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+4548 [Thread-4] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4549 [Thread-4] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4549 [Thread-4] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@17f4130a
+4551 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+4551 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+4552 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:49485
+4552 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:49485
+4553 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff08000a with negotiated timeout 20000 for client /127.0.0.1:49485
+4553 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2001, sessionid = 0x14ff7e1ff08000a, negotiated timeout = 20000
+4553 [Thread-4-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4554 [Thread-4-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+4555 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff08000a
+4556 [Thread-4] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff08000a closed
+4556 [Thread-4] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4557 [Thread-4] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4557 [Thread-4-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+4558 [Thread-4] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2001/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@25f5daca
+4558 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:49485 which had sessionid 0x14ff7e1ff08000a
+4560 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+4560 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+4560 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:49486
+4560 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:49486
+4562 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ff7e1ff08000b with negotiated timeout 20000 for client /127.0.0.1:49486
+4562 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2001, sessionid = 0x14ff7e1ff08000b, negotiated timeout = 20000
+4562 [Thread-4-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4566 [Thread-4] INFO  backtype.storm.daemon.worker - Reading Assignments.
+4603 [Thread-4] INFO  backtype.storm.daemon.worker - Launching receive-thread for b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be:1024
+4608 [Thread-7-worker-receiver-thread-0] INFO  backtype.storm.messaging.loader - Starting receive-thread: [stormId: test-1-1442972828, port: 1024, thread-id: 0 ]
+4840 [Thread-4] INFO  backtype.storm.daemon.executor - Loading executor WordCounter:[2 2]
+4849 [Thread-4] INFO  backtype.storm.daemon.executor - Loaded executor tasks WordCounter:[2 2]
+4859 [Thread-4] INFO  backtype.storm.daemon.executor - Finished loading executor WordCounter:[2 2]
+4868 [Thread-4] INFO  backtype.storm.daemon.executor - Loading executor __acker:[3 3]
+4869 [Thread-4] INFO  backtype.storm.daemon.executor - Loaded executor tasks __acker:[3 3]
+4872 [Thread-4] INFO  backtype.storm.daemon.executor - Timeouts disabled for executor __acker:[3 3]
+4872 [Thread-4] INFO  backtype.storm.daemon.executor - Finished loading executor __acker:[3 3]
+4880 [Thread-4] INFO  backtype.storm.daemon.executor - Loading executor spout:[4 4]
+4886 [Thread-4] INFO  backtype.storm.daemon.executor - Loaded executor tasks spout:[4 4]
+4897 [Thread-4] INFO  backtype.storm.daemon.executor - Finished loading executor spout:[4 4]
+4903 [Thread-4] INFO  backtype.storm.daemon.executor - Loading executor __system:[-1 -1]
+4904 [Thread-4] INFO  backtype.storm.daemon.executor - Loaded executor tasks __system:[-1 -1]
+4906 [Thread-4] INFO  backtype.storm.daemon.executor - Finished loading executor __system:[-1 -1]
+4913 [Thread-4] INFO  backtype.storm.daemon.executor - Loading executor SearchImageBolt1:[1 1]
+4914 [Thread-4] INFO  backtype.storm.daemon.executor - Loaded executor tasks SearchImageBolt1:[1 1]
+4916 [Thread-4] INFO  backtype.storm.daemon.executor - Finished loading executor SearchImageBolt1:[1 1]
+4922 [Thread-4] INFO  backtype.storm.daemon.worker - Worker has topology config {"storm.id" "test-1-1442972828", "dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/var/folders/s4/0cp4vqb56p70936sglq8wngr0000gn/T//f61a03c9-79f4-4ef9-99db-6d04c37da4e3", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2001, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.kryo.decorators" (), "topology.name" "test", "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1024 1025 1026), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.kryo.register" nil, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+4922 [Thread-4] INFO  backtype.storm.daemon.worker - Worker b2f528b0-3c79-4ae7-baff-a4b227b2ea5b for storm test-1-1442972828 on b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be:1024 has finished loading
+5585 [refresh-active-timer] INFO  backtype.storm.daemon.worker - All connections are ready for worker b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be:1024 with id b2f528b0-3c79-4ae7-baff-a4b227b2ea5b
+5620 [Thread-13-spout] INFO  backtype.storm.daemon.executor - Opening spout spout:(4)
+5623 [Thread-13-spout] INFO  backtype.storm.daemon.executor - Opened spout spout:(4)
+5626 [Thread-13-spout] INFO  backtype.storm.daemon.executor - Activating spout spout:(4)
+5631 [Thread-15-__system] INFO  backtype.storm.daemon.executor - Preparing bolt __system:(-1)
+5631 [Thread-17-SearchImageBolt1] INFO  backtype.storm.daemon.executor - Preparing bolt SearchImageBolt1:(1)
+5634 [Thread-17-SearchImageBolt1] INFO  backtype.storm.daemon.executor - Prepared bolt SearchImageBolt1:(1)
+5637 [Thread-15-__system] INFO  backtype.storm.daemon.executor - Prepared bolt __system:(-1)
+5684 [Thread-9-WordCounter] INFO  backtype.storm.daemon.executor - Preparing bolt WordCounter:(2)
+5684 [Thread-9-WordCounter] INFO  backtype.storm.daemon.executor - Prepared bolt WordCounter:(2)
+5689 [Thread-11-__acker] INFO  backtype.storm.daemon.executor - Preparing bolt __acker:(3)
+5691 [Thread-11-__acker] INFO  backtype.storm.daemon.executor - Prepared bolt __acker:(3)
+13633 [main] INFO  backtype.storm.daemon.nimbus - Shutting down master
+13638 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080001
+13639 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff080001 closed
+13639 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:49476 which had sessionid 0x14ff7e1ff080001
+13639 [main] INFO  backtype.storm.daemon.nimbus - Shut down master
+13639 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+13641 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080003
+13642 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /0:0:0:0:0:0:0:1:49478 which had sessionid 0x14ff7e1ff080003
+13643 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff080003 closed
+13643 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+13644 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080005
+13645 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /0:0:0:0:0:0:0:1:49480 which had sessionid 0x14ff7e1ff080005
+13646 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ff7e1ff080005 closed
+13647 [main] INFO  backtype.storm.daemon.supervisor - Shutting down b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be:b2f528b0-3c79-4ae7-baff-a4b227b2ea5b
+13647 [main] INFO  backtype.storm.process-simulator - Killing process 8541c0ba-800c-4bc1-8688-e377eb25e4b6
+13648 [main] INFO  backtype.storm.daemon.worker - Shutting down worker test-1-1442972828 b5e98ab1-1249-4c7b-91f1-8c5bd7fc19be 1024
+13648 [main] INFO  backtype.storm.daemon.worker - Shutting down receive thread
+13648 [main] INFO  backtype.storm.messaging.loader - Shutting down receiving-thread: [test-1-1442972828, 1024]
+13648 [main] INFO  backtype.storm.messaging.loader - Waiting for receiving-thread:[test-1-1442972828, 1024] to die
+13649 [main] INFO  backtype.storm.messaging.loader - Shutdown receiving-thread: [test-1-1442972828, 1024]
+13650 [main] INFO  backtype.storm.daemon.worker - Shut down receive thread
+13650 [main] INFO  backtype.storm.daemon.worker - Terminating messaging context
+13650 [main] INFO  backtype.storm.daemon.worker - Shutting down executors
+13650 [main] INFO  backtype.storm.daemon.executor - Shutting down executor WordCounter:[2 2]
+13651 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+13651 [Thread-7-worker-receiver-thread-0] INFO  backtype.storm.messaging.loader - Receiving-thread:[test-1-1442972828, 1024] received shutdown notice
+13652 [Thread-9-WordCounter] INFO  backtype.storm.util - Async loop interrupted!
+13653 [Thread-8-disruptor-executor[2 2]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+/images/lc39a-logo.gif : 11
+/shuttle/resources/orbiters/endeavour-logo.gif : 3
+/history/mercury/mr-3/mr-3-patch-small.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0869.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0443.gif : 7
+/shuttle/missions/sts-71/images/KSC-95EC-0893.gif : 2
+/images/launchpalms-small.gif : 4
+/shuttle/resources/orbiters/endeavour.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0915.gif : 9
+/images/slf-logo.gif : 2
+/shuttle/missions/sts-66/sts-66-patch-small.gif : 1
+/images/NASA-logosmall.gif : 307
+/shuttle/technology/images/srb_mod_compare_6-small.gif : 13
+/shuttle/missions/sts-74/sts-74-patch-small.gif : 3
+/elv/ATLAS_CENTAUR/atlas.gif : 1
+/images/mercury-logo.gif : 3
+/shuttle/missions/sts-71/images/KSC-95EC-0907.gif : 2
+/software/winvn/userguide/winvnsm.gif : 2
+/software/winvn/wvsmall.gif : 19
+/shuttle/missions/sts-65/sts-65-patch-small.gif : 2
+/shuttle/missions/sts-71/images/KSC-95EC-0903.gif : 2
+/shuttle/technology/images/et-lox_1-small.gif : 2
+/images/shuttle-patch-small.gif : 15
+/images/shuttle-patch-logo.gif : 13
+/software/winvn/userguide/winvn1.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0873.gif : 1
+/shuttle/missions/sts-71/images/index71.gif : 17
+/history/apollo/apollo-1/images/67HC31.gif : 1
+/images/USA-logosmall.gif : 107
+/history/apollo/apollo-7/apollo-7-patch-small.gif : 2
+/shuttle/missions/sts-30/sts-30-patch-small.gif : 1
+/history/apollo/apollo-1/images/apollo-1-crew.gif : 1
+/images/KSC-94EC-412-small.gif : 12
+/images/dual-pad.gif : 1
+/images/mlp-logo.gif : 1
+/shuttle/missions/sts-1/sts-1-patch-small.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0544.gif : 2
+/shuttle/missions/sts-73/sts-73-patch-small.gif : 3
+/images/oldtower.gif : 1
+/images/op-logo-small.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0911.gif : 12
+/images/launch.gif : 2
+/shuttle/missions/sts-71/images/KSC-95EC-0870.gif : 1
+/images/KSC-logosmall.gif" : 1
+/history/apollo/apollo-1/apollo-1-patch-small.gif : 4
+/history/skylab/skylab-logo.gif : 3
+/images/whatsnew.gif : 4
+/shuttle/resources/orbiters/columbia-logo.gif : 3
+/persons/nasa-cm/jmd.gif : 1
+/shuttle/technology/images/aft_fuselage_2-small.gif : 4
+/history/apollo/apollo-11/apollo-11-patch-small.gif : 7
+/images/landing-small.gif : 4
+/shuttle/resources/orbiters/discovery-logo.gif : 1
+/shuttle/technology/images/et_1-small.gif : 2
+/shuttle/missions/sts-32/sts-32-patch-small.gif : 1
+/shuttle/countdown/images/KSC-81EC-84.gif : 1
+/shuttle/resources/orbiters/challenger-logo.gif : 6
+/shuttle/technology/images/srb_mod_compare_3-small.gif : 13
+/images/lcc-small2.gif : 6
+/images/launchmedium.gif : 40
+/shuttle/technology/images/sts_spec_6-small.gif : 4
+/shuttle/missions/sts-68/sts-68-patch-small.gif : 3
+/shuttle/resources/orbiters/atlantis-logo.gif : 18
+/software/winvn/userguide/docsrigh.gif : 1
+/elv/PEGASUS/minpeg1.gif : 1
+/history/apollo/images/footprint-small.gif : 33
+/history/apollo/apollo-1/images/66HC1519.gif : 1
+/images/lps-small.gif : 1
+/history/apollo/as-203/as-203-patch-small.gif : 1
+/software/winvn/userguide/docscont.gif : 1
+/software/winvn/wvlarge.gif : 2
+/images/landing-logo.gif : 4
+/images/USA-logosmall.gif" : 1
+/history/apollo/apollo-1/images/67HC33a.gif : 1
+/shuttle/missions/sts-26/sts-26-patch-small.gif : 1
+/images/vab-small.gif : 5
+/images/launch-logo.gif : 118
+/software/winvn/userguide/wvnguide.gif : 2
+/history/apollo/apollo-10/apollo-10-patch-small.gif : 1
+/shuttle/resources/orbiters/orbiters-logo.gif : 28
+/images/faq.gif : 8
+/shuttle/missions/sts-71/images/KSC-95EC-0918.gif : 16
+/shuttle/countdown/video/livevideo.gif : 105
+/shuttle/countdown/images/lccteam.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0868.gif : 3
+/images/launchmedium.gif" : 1
+/history/apollo/images/apollo-small.gif : 10
+/history/gemini/gemini-viii/gemini-viii-patch-small.gif : 4
+/shuttle/missions/sts-70/sts-70-patch-small.gif : 8
+/images/WORLD-logosmall.gif" : 1
+/shuttle/resources/orbiters/enterprise-logo.gif : 4
+/history/apollo/images/apollo-logo.gif : 25
+/shuttle/countdown/lps/images/C-2.gif : 1
+/images/construct.gif : 23
+/shuttle/technology/images/mission_profile_2-small.gif : 4
+/shuttle/missions/sts-41/sts-41-patch-small.gif : 1
+/shuttle/missions/sts-35/sts-35-patch-small.gif : 1
+/history/apollo/apollo-8/apollo-8-patch-small.gif : 2
+/images/landing-747.gif : 1
+/history/apollo/images/apollo-insignia.gif : 1
+/images/WORLD-logosmall.gif : 108
+/history/apollo/apollo-13/apollo-13-patch-small.gif : 19
+/history/apollo/apollo-1/images/67HC21.gif : 1
+/shuttle/missions/sts-60/sts-60-patch-small.gif : 1
+/elv/endball.gif : 1
+/shuttle/missions/sts-69/sts-69-patch-small.gif : 4
+/shuttle/missions/sts-31/sts-31-patch-small.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0423.gif : 12
+/images/opf-logo.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0613.gif : 2
+/images/kscmap-tiny.gif : 15
+/history/apollo/images/footprint.gif : 1
+/elv/elvhead3.gif : 1
+/history/apollo/as-201/as-201-patch-small.gif : 1
+/shuttle/missions/sts-36/sts-36-patch-small.gif : 1
+/history/apollo/images/apollo.gif : 1
+/images/lc39a.gif : 3
+/images/crawler-logo.gif : 3
+/shuttle/missions/sts-28/sts-28-patch-small.gif : 1
+/images/rss.gif : 2
+/shuttle/missions/sts-67/images/KSC-95EC-0392.gif : 1
+/history/apollo/images/footprint-logo.gif : 26
+/shuttle/missions/sts-61/sts-61-patch-small.gif : 1
+/images/rollout.gif : 2
+/shuttle/missions/sts-70/images/holes-in-et.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0917.gif : 16
+/images/KSC-logosmall.gif : 262
+/shuttle/missions/sts-78/sts-78-patch-small.gif : 13
+/history/apollo/apollo-12/apollo-12-patch-small.gif : 1
+/shuttle/missions/sts-37/sts-37-patch-small.gif : 2
+/images/NASA-logosmall.gif" : 2
+/shuttle/missions/sts-67/sts-67-patch-small.gif" : 1
+/history/apollo/apollo-13/images/index.gif : 4
+/history/apollo/apollo-9/apollo-9-patch-small.gif : 2
+/shuttle/technology/images/tal_abort_2-small.gif : 3
+/shuttle/missions/sts-29/sts-29-patch-small.gif : 1
+/shuttle/missions/sts-27/sts-27-patch-small.gif : 1
+/history/apollo/apollo-1/images/67HC33.gif : 1
+/shuttle/countdown/lps/fr.gif : 5
+/images/MOSAIC-logosmall.gif" : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0747.gif : 1
+/shuttle/technology/images/sts_body_2-small.gif : 6
+/shuttle/missions/sts-2/sts-2-patch-small.gif : 1
+/images/ksclogo-medium.gif : 102
+/images/MOSAIC-logosmall.gif : 107
+/history/skylab/skylab-small.gif : 3
+/shuttle/missions/sts-71/images/KSC-95EC-0913.gif : 7
+/shuttle/technology/images/launch_sites_8-small.gif : 3
+/shuttle/missions/sts-71/images/KSC-95EC-0909.gif : 1
+/shuttle/missions/sts-71/sts-71-patch-small.gif : 142
+/shuttle/missions/sts-68/images/ksc.gif : 2
+/elv/SCOUT/scout.gif : 1
+/elv/DELTA/delta.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0876.gif : 2
+/shuttle/missions/sts-63/sts-63-patch-small.gif : 5
+/shuttle/missions/sts-71/images/KSC-95EC-0906.gif : 2
+/msfc/onboard/redball.gif : 1
+/shuttle/missions/sts-34/sts-34-patch-small.gif : 1
+/images/kscmap-small.gif : 3
+/shuttle/missions/51-l/51-l-patch-small.gif : 4
+/images/ksclogo.gif : 3
+/history/gemini/images/gemini-logo.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0916.gif : 7
+/images/ksclogosmall.gif : 69
+/shuttle/missions/sts-38/sts-38-patch-small.gif : 1
+/images/kscarea-small.gif : 1
+/software/winvn/bluemarb.gif : 21
+/shuttle/countdown/lps/images/C-2-large.gif : 1
+/shuttle/missions/sts-76/sts-76-patch-small.gif : 1
+/msfc/onboard/come_aboard.gif : 2
+/shuttle/technology/images/srb_16-small.gif : 7
+/shuttle/missions/sts-77/sts-77-patch-small.gif : 4
+/history/apollo/images/APOLLO-logosmall.gif : 1
+/msfc/onboard/colorbar.gif : 1
+/software/winvn/winvn.gif : 22
+/shuttle/countdown/lps/back.gif : 7
+/shuttle/technology/images/et-intertank_1-small.gif : 2
+/shuttle/missions/sts-71/images/KSC-95EC-0871.gif : 2
+/shuttle/missions/sts-68/images/ksc-upclose.gif : 1
+/images/gemini-logo.gif : 1
+/shuttle/technology/images/crew_compartment_13-small.gif : 6
+/software/winvn/userguide/docsleft.gif : 1
+/shuttle/countdown/count.gif : 208
+/shuttle/missions/sts-67/sts-67-patch-small.gif : 8
+/shuttle/technology/images/srb_mod_compare_1-small.gif : 11
+/history/apollo/apollo-17/apollo-17-patch-small.gif : 1
+/shuttle/missions/sts-72/sts-72-patch-small.gif : 1
+/shuttle/missions/sts-70/images/woodpecker-on-et.gif : 1
+/shuttle/missions/sts-71/images/KSC-95EC-0912.gif : 5
+/history/apollo/apollo-11/images/index.gif : 1
+/history/mercury/ma-6/ma-6-patch-small.gif : 1
+/shuttle/missions/sts-33/sts-33-patch-small.gif : 1
+/history/skylab/skylab-4-small.gif : 1
+/history/apollo/pad-abort-test-1/pad-abort-test-1-patch-small.gif : 1
+/msfc/astro_home3.gif : 3
+/images/launch-small.gif : 1
+/elv/TITAN/titan.gif : 1
+/images/ksclogo-medium.gif" : 1
+13662 [main] INFO  backtype.storm.daemon.executor - Shut down executor WordCounter:[2 2]
+13662 [main] INFO  backtype.storm.daemon.executor - Shutting down executor __acker:[3 3]
+92228 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 14874ms for sessionid 0x14ff7e1ff080007, closing socket connection and attempting reconnect
+92228 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 14875ms for sessionid 0x14ff7e1ff080009, closing socket connection and attempting reconnect
+103836 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 21861ms for sessionid 0x14ff7e1ff08000b, closing socket connection and attempting reconnect
+103837 [SessionTracker] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Expiring session 0x14ff7e1ff08000b, timeout of 20000ms exceeded
+123807 [SessionTracker] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Expiring session 0x14ff7e1ff080007, timeout of 20000ms exceeded
+144300 [SessionTracker] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Expiring session 0x14ff7e1ff080009, timeout of 20000ms exceeded
+162519 [Thread-4-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+173130 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+173130 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff08000b
+168908 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+168909 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: SUSPENDED
+190621 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+195026 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080007
+195027 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ff7e1ff080009
+195027 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+195027 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 40330ms for sessionid 0x14ff7e1ff080009, closing socket connection and attempting reconnect
+195028 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+195027 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:49486 which had sessionid 0x14ff7e1ff08000b
+195028 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+205883 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /0:0:0:0:0:0:0:1:49482 which had sessionid 0x14ff7e1ff080007
+205884 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:49484 which had sessionid 0x14ff7e1ff080009
+210565 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+217585 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 18156ms for sessionid 0x14ff7e1ff080007, closing socket connection and attempting reconnect
+221913 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 22563ms for sessionid 0x14ff7e1ff08000b, closing socket connection and attempting reconnect
+221913 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+231115 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+244774 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+244774 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+244774 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 20389ms for sessionid 0x14ff7e1ff08000b, closing socket connection and attempting reconnect
+244773 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 22860ms for sessionid 0x14ff7e1ff080009, closing socket connection and attempting reconnect
+249023 [main-EventThread] WARN  backtype.storm.cluster - Received event :disconnected::none: with disconnected Zookeeper.
+253423 [heartbeat-timer] ERROR backtype.storm.daemon.worker - Error when processing event
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.io.UnixFileSystem.resolve(UnixFileSystem.java:108) ~[na:1.8.0_60]
+	at java.io.File.<init>(File.java:262) ~[na:1.8.0_60]
+	at java.io.File.listFiles(File.java:1212) ~[na:1.8.0_60]
+	at backtype.storm.utils.VersionedStore.listDir(VersionedStore.java:179) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.VersionedStore.getAllVersions(VersionedStore.java:137) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.VersionedStore.mostRecentVersion(VersionedStore.java:60) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.VersionedStore.createVersion(VersionedStore.java:74) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.LocalState.persist(LocalState.java:101) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.LocalState.put(LocalState.java:82) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.daemon.worker$do_heartbeat.invoke(worker.clj:69) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.daemon.worker$fn__6959$exec_fn__1103__auto____6960$heartbeat_fn__6961.invoke(worker.clj:401) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.timer$schedule_recurring$this__1807.invoke(timer.clj:99) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.timer$mk_timer$fn__1790$fn__1791.invoke(timer.clj:50) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.timer$mk_timer$fn__1790.invoke(timer.clj:42) [storm-core-0.9.5.jar:0.9.5]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+255965 [main-EventThread] WARN  backtype.storm.cluster - Received event :disconnected::none: with disconnected Zookeeper.
+253423 [Thread-4-EventThread] WARN  backtype.storm.cluster - Received event :disconnected::none: with disconnected Zookeeper.
+253423 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+266973 [main-EventThread] ERROR org.apache.storm.zookeeper.ClientCnxn - Caught unexpected throwable
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+266968 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001] ERROR org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Thread Thread[NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2001,5,main] died
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.jar.Attributes.read(Attributes.java:394) ~[na:1.8.0_60]
+	at java.util.jar.Manifest.read(Manifest.java:199) ~[na:1.8.0_60]
+	at java.util.jar.Manifest.<init>(Manifest.java:69) ~[na:1.8.0_60]
+	at java.util.jar.JarFile.getManifestFromReference(JarFile.java:199) ~[na:1.8.0_60]
+	at java.util.jar.JarFile.getManifest(JarFile.java:180) ~[na:1.8.0_60]
+	at sun.misc.URLClassPath$JarLoader$2.getManifest(URLClassPath.java:944) ~[na:1.8.0_60]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:450) ~[na:1.8.0_60]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_60]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_60]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_60]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_60]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_60]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_60]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_60]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_60]
+	at ch.qos.logback.classic.spi.PackagingDataCalculator.calculateByExactType(PackagingDataCalculator.java:124) ~[logback-classic-1.0.13.jar:na]
+	at ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:95) ~[logback-classic-1.0.13.jar:na]
+	at ch.qos.logback.classic.spi.PackagingDataCalculator.calculate(PackagingDataCalculator.java:55) ~[logback-classic-1.0.13.jar:na]
+	at ch.qos.logback.classic.spi.ThrowableProxy.calculatePackagingData(ThrowableProxy.java:147) ~[logback-classic-1.0.13.jar:na]
+	at ch.qos.logback.classic.spi.LoggingEvent.<init>(LoggingEvent.java:129) ~[logback-classic-1.0.13.jar:na]
+	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:439) ~[logback-classic-1.0.13.jar:na]
+	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:395) ~[logback-classic-1.0.13.jar:na]
+	at ch.qos.logback.classic.Logger.warn(Logger.java:712) ~[logback-classic-1.0.13.jar:na]
+	at org.apache.storm.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:357) ~[storm-core-0.9.5.jar:0.9.5]
+	at org.apache.storm.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208) ~[storm-core-0.9.5.jar:0.9.5]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_60]
+260213 [Thread-6] ERROR backtype.storm.event - Error when processing event
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.String.substring(String.java:1933) ~[na:1.8.0_60]
+	at java.io.ObjectStreamClass.classNamesEqual(ObjectStreamClass.java:1469) ~[na:1.8.0_60]
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:624) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1623) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1518) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1774) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_60]
+	at java.util.HashMap.readObject(HashMap.java:1396) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1017) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1900) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1801) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_60]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_60]
+	at backtype.storm.serialization.DefaultSerializationDelegate.deserialize(DefaultSerializationDelegate.java:52) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.Utils.deserialize(Utils.java:89) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.LocalState.deserializeLatestVersion(LocalState.java:65) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.LocalState.snapshot(LocalState.java:47) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.utils.LocalState.get(LocalState.java:72) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.daemon.supervisor$sync_processes.invoke(supervisor.clj:234) ~[storm-core-0.9.5.jar:0.9.5]
+	at clojure.lang.AFn.applyToHelper(AFn.java:161) [clojure-1.5.1.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:151) [clojure-1.5.1.jar:na]
+	at clojure.core$apply.invoke(core.clj:619) ~[clojure-1.5.1.jar:na]
+	at clojure.core$partial$fn__4190.doInvoke(core.clj:2396) ~[clojure-1.5.1.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:397) ~[clojure-1.5.1.jar:na]
+	at backtype.storm.event$event_manager$fn__2625.invoke(event.clj:40) ~[storm-core-0.9.5.jar:0.9.5]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+260213 [Thread-13-spout] ERROR backtype.storm.util - Async loop died!
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+260213 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 15439ms for sessionid 0x14ff7e1ff080007, closing socket connection and attempting reconnect
+285241 [Thread-13-spout] ERROR backtype.storm.daemon.executor - 
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+255965 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2001. Will not attempt to authenticate using SASL (unknown error)
+290285 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 41264ms for sessionid 0x14ff7e1ff080009, closing socket connection and attempting reconnect
+271369 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/0:0:0:0:0:0:0:1:2001, initiating session
+290286 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 23313ms for sessionid 0x14ff7e1ff08000b, closing socket connection and attempting reconnect
+303848 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+303849 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+303850 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+308210 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+317447 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2001. Will not attempt to authenticate using SASL (unknown error)
+317448 [CuratorFramework-0] WARN  org.apache.storm.curator.ConnectionState - Connection attempt unsuccessful after 43752 (greater than max timeout of 20000). Resetting connection and trying again with a new connection.
+326124 [heartbeat-timer] ERROR backtype.storm.util - Halting process: ("Error when processing an event")
+java.lang.RuntimeException: ("Error when processing an event")
+	at backtype.storm.util$exit_process_BANG_.doInvoke(util.clj:325) [storm-core-0.9.5.jar:0.9.5]
+	at clojure.lang.RestFn.invoke(RestFn.java:423) [clojure-1.5.1.jar:na]
+	at backtype.storm.daemon.worker$mk_halting_timer$fn__6774.invoke(worker.clj:176) [storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.timer$mk_timer$fn__1790$fn__1791.invoke(timer.clj:68) [storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.timer$mk_timer$fn__1790.invoke(timer.clj:42) [storm-core-0.9.5.jar:0.9.5]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+326124 [timer] WARN  org.apache.storm.curator.ConnectionState - Connection attempt unsuccessful after 65909 (greater than max timeout of 20000). Resetting connection and trying again with a new connection.
+321821 [Thread-6] ERROR org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Thread Thread[Thread-6,5,main] died
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+321821 [Thread-4-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2001, initiating session
+321821 [main-SendThread(localhost:2001)] INFO  org.apache.storm.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 17973ms for sessionid 0x14ff7e1ff080009, closing socket connection and attempting reconnect
+321821 [CuratorFramework-0] WARN  org.apache.storm.curator.ConnectionState - Connection attempt unsuccessful after 61702 (greater than max timeout of 20000). Resetting connection and trying again with a new connection.
